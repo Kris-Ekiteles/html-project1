@@ -9,4 +9,48 @@ body {
 }
 nav {
   display: inline-block;
+  padding: 20px;
+}
+nav a {
+  text-decoration: none;
+  padding: 20px;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+section {
+  background-color: transparent;
+  border: 1px solid rgba(47, 51, 47, 0.146);
+  margin: 8px;
+  padding: 6px;
+  border-radius: 10px;
+}
+input {
+  border: 1px solid aliceblue;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  height: 20px;
+  background-color: transparent;
+  outline: none;
+}
+textarea{
+    background-color: transparent;
+    color: aliceblue;
+    border: 1px solid aliceblue;
+    border-radius: 5px;
+    outline: none;
+}
+button{
+    display: block;
+    background-color: transparent;
+    width: 70px;
+    height: 30px;
+    color: aliceblue;
+    border: 1px solid aliceblue;
+    border-radius: 5px;
+
+}
+footer{
+    border: 2px solid rgb(98, 111, 71);
+    padding: 10px;
 }
