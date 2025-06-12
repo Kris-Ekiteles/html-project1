@@ -6,6 +6,7 @@ body {
     rgb(54, 118, 118) 80%,
     rgb(210, 164, 164) 100%
   );
+  font-family: "roboto", sans-serif;
 }
 nav {
   display: inline-block;
@@ -33,24 +34,23 @@ input {
   background-color: transparent;
   outline: none;
 }
-textarea{
-    background-color: transparent;
-    color: aliceblue;
-    border: 1px solid aliceblue;
-    border-radius: 5px;
-    outline: none;
+textarea {
+  background-color: transparent;
+  color: aliceblue;
+  border: 1px solid aliceblue;
+  border-radius: 5px;
+  outline: none;
 }
-button{
-    display: block;
-    background-color: transparent;
-    width: 70px;
-    height: 30px;
-    color: aliceblue;
-    border: 1px solid aliceblue;
-    border-radius: 5px;
-
+button {
+  display: block;
+  background-color: transparent;
+  width: 70px;
+  height: 30px;
+  color: aliceblue;
+  border: 1px solid aliceblue;
+  border-radius: 5px;
 }
-footer{
-    border: 2px solid rgb(98, 111, 71);
-    padding: 10px;
+footer {
+  border: 2px solid rgb(98, 111, 71);
+  padding: 10p;
 }
